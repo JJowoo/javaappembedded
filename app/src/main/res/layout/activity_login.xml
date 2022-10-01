@@ -9,6 +9,7 @@
     android:paddingTop="16dp"
     tools:context=".login">
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -104,7 +105,13 @@
             android:gravity="center"
             android:text="Sign up"
             android:textColor="@android:color/holo_blue_bright"
-            android:textSize="24sp"></TextView>
+            android:textSize="24sp"
+            android:id="@+id/signup"
+            android:clickable="true"
+            android:focusable="true"
+
+
+            ></TextView>
 
     </LinearLayout>
 
